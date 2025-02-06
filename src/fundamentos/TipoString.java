@@ -12,6 +12,7 @@ public class TipoString {
 		System.out.println(s.endsWith("Tarde"));
 		System.out.println(s.equals("boa tarde"));
 		System.out.println(s.equalsIgnoreCase("boa tarde"));
+		System.out.println(s.substring(4, 9));
 
 	}
 
