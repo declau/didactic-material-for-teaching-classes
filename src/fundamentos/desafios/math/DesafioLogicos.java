@@ -1,6 +1,6 @@
 package fundamentos.desafios.math;
 
-public class DEsafioLogicos {
+public class DesafioLogicos {
 
 	public static void main(String[] args) {
 		
@@ -9,9 +9,14 @@ public class DEsafioLogicos {
 		
 		boolean comprouTv50 = trabalho1 && trabalho2;
 		boolean comprouTv32 = trabalho1 ^ trabalho2;
+		boolean comprouSorvete = trabalho1 || trabalho2;
+		boolean maisSaudavel = !comprouSorvete;
 		
-		System.out.println("Comprou TV de 50 polegadas? " + comprouTv50);
+		System.out.println("Comprou TV de 50 polegadas? " + comprouTv50); 
 		System.out.println("Comprou TV de 32 polegadas? " + comprouTv32);
+		System.out.println("Comprou Sarvete? " + comprouSorvete);
+		
+		System.out.println("Mais Saudável? " + maisSaudavel);
 		
 		
 
