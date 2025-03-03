@@ -11,7 +11,7 @@ public class DEsafioLogicos {
 		boolean comprouTv32 = trabalho1 ^ trabalho2;
 		
 		System.out.println("Comprou TV de 50 polegadas? " + comprouTv50);
-		System.out.println("Comprou TV de 50 polegadas? " + comprouTv50);
+		System.out.println("Comprou TV de 32 polegadas? " + comprouTv32);
 		
 		
 
