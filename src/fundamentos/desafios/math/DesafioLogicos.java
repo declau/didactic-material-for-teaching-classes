@@ -14,7 +14,7 @@ public class DesafioLogicos {
 		
 		System.out.println("Comprou TV de 50 polegadas? " + comprouTv50); 
 		System.out.println("Comprou TV de 32 polegadas? " + comprouTv32);
-		System.out.println("Comprou Sarvete? " + comprouSorvete);
+		System.out.println("Comprou Sorvete? " + comprouSorvete);
 		
 		System.out.println("Mais Saudável? " + maisSaudavel);
 		
