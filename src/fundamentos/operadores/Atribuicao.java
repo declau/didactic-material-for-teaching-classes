@@ -21,6 +21,9 @@ public class Atribuicao {
 		c %= 2; // c = c % 2;
 		System.out.println(c);
 		
+		c++; // c = c + 1; - Unário 
+		System.out.println(c);
+		
 		
 		
 	}
