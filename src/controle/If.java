@@ -19,10 +19,10 @@ public class If {
 		
 		double media = (nota1 + nota2 + nota3) / 3;
 		
-		if (media >= 7.0) {
+		if (media <= 10 && media >= 7.0) {
 			System.out.println("Aluno aprovado!");
 			System.out.println("Parabés!");
-		} else if (media >= 5.0 && media <= 6.9) {
+		} else if (media >= 5.0 && media < 7) {
 			System.out.println("Aluno em recuperação!!!");
 			
 		} else 
