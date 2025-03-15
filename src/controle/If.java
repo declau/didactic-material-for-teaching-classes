@@ -21,7 +21,7 @@ public class If {
 		
 		if (media >= 7.0) {
 			System.out.println("Aluno aprovado!");
-		} else if (media >=5 5.0 && media <= 6.9) {
+		} else if (media >= 5.0 && media <= 6.9) {
 			System.out.println("Aluno em recuperação!!!");
 			
 		} else 
