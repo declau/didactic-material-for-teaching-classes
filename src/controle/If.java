@@ -23,13 +23,14 @@ public class If {
 			System.out.println("Aluno aprovado!");
 			System.out.println("Parabés!");
 		} else if (media >= 5.0 && media < 7) {
-			System.out.println("Aluno em recuperação!!!");
-			
-		} else 
+			System.out.println("Aluno em recuperação!!!");		
+		} else if (media > 0 && media < 5) {
 			System.out.println("Aluno reprovado!!!!");
-		entrada.close();
+		} else 
+			System.out.println("Numero incorreto !!!");
 		
-
+		entrada.close();
+				
 	}
 
 }
