@@ -12,6 +12,8 @@ public class IfElseIf {
 		
 		if (nota > 10 || nota < 0) {
 			System.out.println("Nota inválida!!");
+		} else if ( nota >= 8.1){
+			System.out.println("Nota Conceito A");
 		}
 		
 		entrada.close();
