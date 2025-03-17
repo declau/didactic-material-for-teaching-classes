@@ -12,7 +12,7 @@ public class IfElseSwing {
 		if (numero % 2 == 0) {
 			System.out.println("Número é par!");
 		} else {
-			System.out.println("Número impar");
+			System.out.println("Número ímpar");
 		}
 
 	}
