@@ -14,8 +14,17 @@ public class IfElseIf {
 			System.out.println("Nota inválida!!");
 		} else if ( nota >= 8.1){
 			System.out.println("Nota Conceito A");
+		} else if (nota >= 6.1) {
+			System.out.println("Nota conceito B");
+		} else if (nota >= 4.1) {
+			System.out.println("Nota conceito C");
+		} else if (nota >= 2.1) {
+			System.out.println("Nota conceito D");
+		} else {
+			System.out.println("Conceito E");
 		}
 		
+		System.out.println("Fim!");
 		entrada.close();
 	}
 
